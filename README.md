@@ -69,7 +69,7 @@ python script.py
   - The filename will be:
     - Lowercase
     - Spaces replaced by underscores
-    - Appended with a suffix (e.g., `logo updated.svg` → `logo_updated.png`)
+    - Start with a prefix (e.g., `logo.svg` → `updated_logo.png`)
 
 ---
 
@@ -80,7 +80,7 @@ You can modify the following variables in the script:
 ```python
 old_color = "#ff0000"  # Color to replace
 new_color = "#00ff00"  # Replacement color
-suffix = "_updated"    # Suffix for output filenames
+prefix = "updated_"    # Prefix for output filenames
 width = 512            # PNG width
 height = 512           # PNG height
 ```
